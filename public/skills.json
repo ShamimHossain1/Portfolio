@@ -1,0 +1,80 @@
+{
+    "Expertise": [
+        {
+            "name": "HTML"
+        },
+        {
+            "name": "CSS"
+        },
+        {
+            "name": "React"
+        },
+        {
+            "name": "Tailwind Css"
+        },
+        {
+            "name": "DaisyUI"
+        },
+        {
+            "name": "Flowbite"
+        },
+        {
+            "name": "Bootstrap"
+        },
+        {
+            "name": "React Router"
+        },
+        {
+            "name": "Firebase Authentication"
+        }
+    ],
+    "tools": [
+        {
+            "name": "Visual Studio Code"
+        },
+        {
+            "name": "Git and GitHub"
+        },
+        {
+            "name": "Browser Dev Tools"
+        },
+        {
+            "name": "Netlify"
+        },
+        {
+            "name": "Vercel"
+        },
+        {
+            "name": "Firebase"
+        },
+        {
+            "name": "Dotenv"
+        },
+        {
+            "name": "Figma"
+        },
+        {
+            "name": "Canva"
+        }
+    ],
+    "Comfortable": [
+        {
+            "name": " JavaScript"
+        },
+        {
+            "name": "Node JS"
+        },
+        {
+            "name": "Express JS"
+        },
+        {
+            "name": "Devtool and Debugging"
+        },
+        {
+            "name": "MongoDB"
+        },
+        {
+            "name": "JWT"
+        }
+    ]
+}

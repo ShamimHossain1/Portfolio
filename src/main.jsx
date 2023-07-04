@@ -7,12 +7,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Error from './Components/404 Page/Error';
+import Layout from './Components/Home/Layout';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <Layout></Layout>,
   },
   {
     path: "*",
