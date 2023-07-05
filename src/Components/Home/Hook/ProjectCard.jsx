@@ -19,7 +19,8 @@ const ProjectCard = ({ data }) => {
 
 
     return (
-        <div className="card shadow-gray-900 shadow-xl">
+        <div data-aos="fade-up"
+        data-aos-duration="3000" className="card shadow-gray-900 shadow-xl">
             <figure><img className='hover:scale-110 duration-1000 opacity-80' src={image} alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="card-title md:text-2xl md:font-bold">{title}</h2>
@@ -32,27 +33,27 @@ const ProjectCard = ({ data }) => {
                     </div>
                     <Modal className='max-w-6xl scale-75 duration-1000 p-10' open={visible}>
                         <Modal.Header className="font-bold">
-                            <h1 className='text-3xl text-gray-200'>{title}</h1>
-                            <p className='text-base mt-3 font-normal text-gray-300'>{About}</p>
+                            <h1 className='md:text-3xl text-gray-200'>{title}</h1>
+                            <p className='md:text-base text-sm mt-3 font-normal text-gray-300'>{About}</p>
                         </Modal.Header>
 
                         <Modal.Body>
-                            <div className='flex justify-evenly pr-20 '>
+                            <div className='flex md:justify-evenly gap-8 md:pr-20 '>
                                 <div>
-                                    <h2 className='text-xl'>Key Features</h2>
-                                    <hr className='bg-blue-500 border-0 h-1 rounded-lg mb-4 mt-2 w-3/4 ' />
+                                    <h2 className='md:text-xl'>Key Features</h2>
+                                    <hr className='bg-blue-500 border-0 md:h-1 h-0.5 rounded-lg mb-4 mt-2 w-3/4 ' />
                                     <ul>
                                         {keyFeatures.map((data) =>
-                                            <li key={data} className='mb-2 flex  gap-3 text-gray-300'><GiJusticeStar className='text-blue-500 text-xl'></GiJusticeStar>{data}</li>
+                                            <li key={data} className='mb-2 flex md:text-base text-xs  gap-3 text-gray-300'><GiJusticeStar className='text-blue-500 text-xl'></GiJusticeStar>{data}</li>
                                         )}
                                     </ul>
                                 </div>
                                 <div>
-                                <h2 className='text-xl'>Tools Used</h2>
-                                    <hr className='bg-blue-500 border-0 h-1 rounded-lg mb-4 mt-2 ' />
+                                <h2 className='md:text-xl'>Tools Used</h2>
+                                    <hr className='bg-blue-500 border-0 md:h-1 h-0.5 rounded-lg mb-4 mt-2 ' />
                                     <ul>
                                         {tools.map((data) =>
-                                            <li key={data} className='mb-2 flex items-center gap-3 text-gray-300'><FaTools className='text-blue-500 '></FaTools>{data}</li>
+                                            <li key={data} className='mb-2 flex items-center md:text-base text-xs gap-3 text-gray-300'><FaTools className='text-blue-500 '></FaTools>{data}</li>
                                         )}
                                     </ul>
 

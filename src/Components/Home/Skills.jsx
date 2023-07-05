@@ -28,11 +28,12 @@ const Skills = () => {
                 title={'My Skills'}
             ></Title>
 
-            <div className='md:flex justify-between  items-center shadow-lg md:mx-72 md:my-10 my-5  md:px-28 px-2 mx-2 py-7 rounded-lg'>
+            <div data-aos="fade-up"
+     data-aos-duration="3000" className='md:flex justify-between  items-center shadow-lg md:mx-72 md:my-10 my-5  md:px-28 px-2 mx-2 py-7 rounded-lg'>
                 <div>
                     <h2 className='md:text-3xl text-xl text-blue-500 font-bold'>Expertise:</h2>
                 </div>
-                <div className='grid grid-cols-3 md:gap-3 gap-1'>
+                <div  className='grid grid-cols-3 md:gap-3 gap-1'>
                     {
                         Expertise.map(data =>
                             <Card
@@ -47,7 +48,8 @@ const Skills = () => {
 
                 </div>
             </div>
-            <div className='md:flex justify-between  items-center shadow-lg md:mx-72 md:my-10 my-5 md:px-28 px-2 mx-2 py-7 rounded-lg'>
+            <div data-aos="fade-up"
+     data-aos-duration="3000" className='md:flex justify-between  items-center shadow-lg md:mx-72 md:my-10 my-5 md:px-28 px-2 mx-2 py-7 rounded-lg'>
                 <div>
                     <h2 className='md:text-3xl text-xl text-blue-500 font-bold'>Comfortable:</h2>
                 </div>
@@ -66,7 +68,8 @@ const Skills = () => {
 
                 </div>
             </div>
-            <div className='md:flex justify-between  items-center shadow-lg md:mx-72 md:my-10 my-5 md:px-28 px-2 mx-2 py-7 rounded-lg'>
+            <div data-aos="fade-up"
+     data-aos-duration="3000" className='md:flex justify-between  items-center shadow-lg md:mx-72 md:my-10 my-5 md:px-28 px-2 mx-2 py-7 rounded-lg'>
                 <div>
                     <h2 className='md:text-3xl text-xl text-blue-500 font-bold'>Tools:</h2>
                 </div>

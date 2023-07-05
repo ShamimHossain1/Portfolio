@@ -18,7 +18,7 @@ const Projects = () => {
 
             <Title title={'My Projects'}></Title>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-14  md:px-52 px-5'>
+            <div  className='grid grid-cols-1 md:grid-cols-2 gap-14  md:px-52 px-5'>
                 {
                     data.map(data=>
                        
