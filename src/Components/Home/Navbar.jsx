@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
 
 
-    <div className="navbar bg-base-100 -mt-16 shadow-lg px-20 fixed z-10">
+    <div className="navbar bg-base-100 -mt-16 shadow-lg md:px-20 fixed z-10">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -16,7 +16,7 @@ const Navbar = () => {
           </label>
 
         </div>
-        <Link to="#about" smooth className="btn btn-ghost normal-case text-4xl">Shamim</Link>
+        <Link to="#about" smooth className="btn btn-ghost normal-case md:text-4xl text-xl">Shamim</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-2 font-semibold text-lg">
@@ -27,7 +27,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end flex items-center">
-        <Link to="#contact" smooth className="btn  border-blue-500 hover:text-slate-300  px-2 py-2 rounded-lg  text-blue-500 font-bold text-lg">Hire <BiRightArrowAlt></BiRightArrowAlt></Link>
+        <Link to="#contact" smooth className="btn  border-blue-500 hover:text-slate-300  px-2 py-2 rounded-lg  text-blue-500 md:font-bold md:text-lg">Hire <BiRightArrowAlt></BiRightArrowAlt></Link>
       </div>
     </div>
 
