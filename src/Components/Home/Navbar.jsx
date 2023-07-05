@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
 
 
-    <div className="navbar bg-base-100 shadow-lg px-20 fixed z-10">
+    <div className="navbar bg-base-100 -mt-16 shadow-lg px-20 fixed z-10">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -27,7 +27,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end flex items-center">
-        <Link to="#contact" smooth className="btn bg-blue-600 text-white text-lg">Hire <BiRightArrowAlt></BiRightArrowAlt></Link>
+        <Link to="#contact" smooth className="btn  border-blue-500 hover:text-slate-300  px-2 py-2 rounded-lg  text-blue-500 font-bold text-lg">Hire <BiRightArrowAlt></BiRightArrowAlt></Link>
       </div>
     </div>
 

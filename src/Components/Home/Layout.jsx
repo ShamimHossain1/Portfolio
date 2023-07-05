@@ -14,8 +14,8 @@ const Layout = () => {
 
         <div>
             <Navbar></Navbar>
-            <div className=' absolute'>
-                <div className='px-36 mt-16' >
+            <div className=''>
+                <div className='md:px-36 mt-16' >
                     <Banner></Banner>
                     <About></About>
                     <Skills></Skills>

@@ -20,15 +20,15 @@ const ProjectCard = ({ data }) => {
 
     return (
         <div className="card shadow-gray-900 shadow-xl">
-            <figure><img className='hover:scale-110 duration-1000' src={image} alt="Shoes" /></figure>
+            <figure><img className='hover:scale-110 duration-1000 opacity-80' src={image} alt="Shoes" /></figure>
             <div className="card-body">
-                <h2 className="card-title text-2xl font-bold">{title}</h2>
-                <p>{About}</p>
+                <h2 className="card-title md:text-2xl md:font-bold">{title}</h2>
+                <p className='md:text-base text-xs'>{About}</p>
 
 
                 <div className="font-sans">
                     <div className=" justify-center ">
-                        <button onClick={toggleVisible} className="btn w-full bg-blue-500 text-white font-bold" >View Details</button>
+                        <button onClick={toggleVisible} className="btn w-full border-blue-500 hover:text-slate-300  px-2 py-2 rounded-lg mt-3  text-blue-500 md:font-bold" >View Details</button>
                     </div>
                     <Modal className='max-w-6xl scale-75 duration-1000 p-10' open={visible}>
                         <Modal.Header className="font-bold">
@@ -62,13 +62,13 @@ const ProjectCard = ({ data }) => {
 
                         </Modal.Body>
                         <div className='flex justify-center gap-4'>
-                            <button className="hover:bg-slate-900   px-2 py-2 rounded-lg my-5 bg-blue-500 text-white font-bold"> <a className='flex items-center gap-2 ' href={liveLink} target="_blank"><CgWebsite></CgWebsite> Live Website</a></button>
-                            <button className="hover:bg-slate-900 flex items-center gap-2 px-2 py-2 rounded-lg my-5 bg-blue-500 text-white font-bold">   <a className='flex items-center gap-2 ' href={githubLink} target="_blank"><AiOutlineGithub></AiOutlineGithub>GitHub</a></button>
-                            {serverLink && <button className="hover:bg-slate-900 flex items-center gap-2 px-2 py-2 rounded-lg my-5 bg-blue-500 text-white font-bold"><a className='flex items-center gap-2 ' href={serverLink} target="_blank"> <FaServer></FaServer>Server</a></button>}
+                            <button className="btn border-blue-500   px-2 py-2 rounded-lg my-5 hover:text-slate-300 text-blue-500 font-bold"> <a className='flex items-center gap-2 ' href={liveLink} target="_blank"><CgWebsite></CgWebsite> Live Website</a></button>
+                            <button className="btn border-blue-500 hover:text-slate-300   px-2 py-2 rounded-lg my-5  text-blue-500 font-bold">   <a className='flex items-center gap-2 ' href={githubLink} target="_blank"><AiOutlineGithub></AiOutlineGithub>GitHub</a></button>
+                            {serverLink && <button className="btn border-blue-500 hover:text-slate-300  px-2 py-2 rounded-lg my-5  text-blue-500 font-bold"><a className='flex items-center gap-2 ' href={serverLink} target="_blank"> <FaServer></FaServer>Server</a></button>}
                         </div>
 
                         <Modal.Actions>
-                            <button className="btn px-4  bg-blue-500 text-white font-bold" onClick={toggleVisible}>Exit</button>
+                            <button className="btn px-4 text-blue-500 mt-3 border-blue-500 font-bold" onClick={toggleVisible}>Exit</button>
                         </Modal.Actions>
                     </Modal>
                 </div>

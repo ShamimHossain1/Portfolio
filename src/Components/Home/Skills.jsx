@@ -28,11 +28,11 @@ const Skills = () => {
                 title={'My Skills'}
             ></Title>
 
-            <div className='flex justify-between  items-center shadow-lg mx-72 my-10 px-28 py-7 rounded-lg'>
+            <div className='md:flex justify-between  items-center shadow-lg md:mx-72 md:my-10 my-5  md:px-28 px-2 mx-2 py-7 rounded-lg'>
                 <div>
-                    <h2 className='text-3xl text-blue-500 font-bold'>Expertise:</h2>
+                    <h2 className='md:text-3xl text-xl text-blue-500 font-bold'>Expertise:</h2>
                 </div>
-                <div className='grid  grid-cols-3 gap-3'>
+                <div className='grid grid-cols-3 md:gap-3 gap-1'>
                     {
                         Expertise.map(data =>
                             <Card
@@ -47,11 +47,11 @@ const Skills = () => {
 
                 </div>
             </div>
-            <div className='flex justify-between  items-center shadow-lg mx-72 my-10 px-28 py-7 rounded-lg'>
+            <div className='md:flex justify-between  items-center shadow-lg md:mx-72 md:my-10 my-5 md:px-28 px-2 mx-2 py-7 rounded-lg'>
                 <div>
-                    <h2 className='text-3xl text-blue-500 font-bold'>Comfortable:</h2>
+                    <h2 className='md:text-3xl text-xl text-blue-500 font-bold'>Comfortable:</h2>
                 </div>
-                <div className='grid  grid-cols-3 gap-3'>
+                <div className='grid  grid-cols-3 md:gap-3 gap-1'>
                     {
                         Comfortable.map(data =>
                             <Card
@@ -66,11 +66,11 @@ const Skills = () => {
 
                 </div>
             </div>
-            <div className='flex justify-between  items-center shadow-lg mx-72 my-10 px-28 py-7 rounded-lg'>
+            <div className='md:flex justify-between  items-center shadow-lg md:mx-72 md:my-10 my-5 md:px-28 px-2 mx-2 py-7 rounded-lg'>
                 <div>
-                    <h2 className='text-3xl text-blue-500 font-bold'>Tools:</h2>
+                    <h2 className='md:text-3xl text-xl text-blue-500 font-bold'>Tools:</h2>
                 </div>
-                <div className='grid  grid-cols-3 gap-3'>
+                <div className='grid  grid-cols-3 md:gap-3 gap-1'>
                     {
                         Tools.map(data =>
                             <Card
