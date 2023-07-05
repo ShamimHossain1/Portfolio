@@ -1,0 +1,100 @@
+[
+    {
+      "title": "Elite Arts",
+      "image": "./EliteArts.png",
+      "About":"This is online art learning website where users can purchase courses. Also There are 3 different Dashboard according to users type. They are normal users, Instructors, and Admins.This is just a practice project that i made for fun to check my skills that how i can use different tools. My design is very horrible because i am not an expert in design. But i can build various kind of JS functions which run very smoothly.",
+      "keyFeatures": [
+        "Payment Option",
+        "Admin Dashboard",
+        "User Dashboard"
+      ],
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Firebase",
+        "MongoDB",
+        "JWT",
+        "Vercel",
+        "DaisyUI"
+
+      ],
+      "githubLink": "https://github.com/ShamimHossain1/Assignment-12-EliteArts-Client",
+      "serverLink": "https://github.com/ShamimHossain1/Assignment-12-EliteArts-Server",
+      "liveLink": "https://stupendous-duckanoo-afaec0.netlify.app/home"
+    },
+    {
+      "title": "Action Verse",
+      "image": "./Toy.png",
+      "About":"This is a toy market place website where a user can add data to my database. This website has various kind of functions. This websites main theme is about MongoDB. I build this website to check my mongoDB skills.",
+      "keyFeatures": [ 
+        "Explore by category by react tabs",
+        "Private Route: With Out login redirect to login page"
+        
+      ],
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Firebase",
+        "MongoDB",
+       
+        "Vercel",
+        "DaisyUI"
+      ],
+      "githubLink": "https://github.com/ShamimHossain1/Assignment-11-ActionVerse-Client",
+      "serverLink": "https://github.com/ShamimHossain1/Assignment-11-ActionVerse-Server",
+      "liveLink": "https://toy-marketplace-ac8e8.web.app/"
+    },
+    {
+      "title": "Shaolin Recipes",
+      "image": "./Recipe.png",
+      "About":"This a recipe website.  Home page is responsive for mobile. At first there is a slider. Then there are chef section where 6 chefs displayed and one can click on view recipes button to see their recipes and their bio. But first you have to login because recipes are on private route. only user can access this.There are 2 extra section which are top foods and customer review.",
+      "keyFeatures": [
+        "Login with email and also can login with google and github",
+        "Reset password option is available",
+        "Recipes are on private route"
+      ],
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Firebase",
+        "MongoDB",
+     
+        "Vercel"
+       
+      ],
+      "githubLink": " https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-client-side-ShamimHossain1 ",
+      "serverLink": " https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-server-side-ShamimHossain1",
+      "liveLink": " https://assignment-10-28282.web.app/"
+    },
+    {
+      "title": "BD JOB BANK",
+      "image": "./JOB.png",
+      "About":"This is a job application web site. Here you can find some job category list and some featured jobs and their details. Also you can apply to those jobs.",
+      "keyFeatures": [
+        "This project was made in VITE React",
+        "Tailwind was use to design the whole project.",
+        "React Router was used.",
+        "All the icon imported from Font Awesome."
+      ],
+      "tools": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Rechart"
+   
+       
+       
+      ],
+      "githubLink": "https://github.com/ShamimHossain1/Assignment-9-Career-Hub",
+      
+      "liveLink": "https://zingy-custard-1449c5.netlify.app/"
+    }
+  ]
+  
