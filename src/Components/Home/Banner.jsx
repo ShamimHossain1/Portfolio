@@ -3,7 +3,7 @@ import { MdEmail, MdAddCall } from 'react-icons/Md';
 import { FaSquareFacebook } from 'react-icons/fa6';
 import { FaWhatsappSquare, FaGithubSquare } from 'react-icons/fa';
 import { AiFillLinkedin, AiFillTwitterSquare } from 'react-icons/ai';
-import ScrollAnimation from 'react-animate-on-scroll';
+
 
 const Banner = () => {
     return (

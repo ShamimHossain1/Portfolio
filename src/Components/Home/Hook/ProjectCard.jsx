@@ -19,8 +19,7 @@ const ProjectCard = ({ data }) => {
 
 
     return (
-        <div data-aos="fade-up"
-        data-aos-duration="3000" className="card shadow-gray-900 shadow-xl">
+        <div  className="card shadow-gray-900 shadow-xl">
             <figure><img className='hover:scale-110 duration-1000 opacity-80' src={image} alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="card-title md:text-2xl md:font-bold">{title}</h2>
